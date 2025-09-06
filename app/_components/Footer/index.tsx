@@ -1,3 +1,4 @@
+import Link from "next/link";
 import styeles from "./index.module.css";
 
 export default function Footer() {
@@ -6,13 +7,13 @@ export default function Footer() {
             <nav className={styeles.nav}>
                 <ul className={styeles.items}>
                     <li className={styeles.item}>
-                        <a href="/news">ニュース</a>
+                        <Link href="/news">ニュース</Link>
                     </li>
                     <li className={styeles.item}>
-                        <a href="/members">メンバー</a>
+                        <Link href="/members">メンバー</Link>
                     </li>
                     <li className={styeles.item}>
-                        <a href="/contact">お問い合わせ</a>
+                        <Link href="/contact">お問い合わせ</Link>
                     </li>
                 </ul>
             </nav>
